@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile.js</title>
+  </head>
+  <body>
+    <!-- <script src="./profile.js"></script> -->
+    <h1>Profile</h1>
+    <p>Click the button below to get started:</p>
+    <button onclick="myProfile()">Get started</button>
+    <p id="demo"></p>
+    <script>
+      function myProfile() {
+        let name = prompt("Enter your name: ");
+        let height = prompt("Enter your height: ");
+        let country = prompt("Enter your country: ");
+
+        if ((name, height, country != null));
+        {
+          document.getElementById("demo").innerHTML =
+            "Hello, my name's " +
+            name +
+            ", my height is " +
+            height +
+            " and I'm from " +
+            country +
+            ".";
+        }
+      }
+    </script>
+  </body>
+</html>
